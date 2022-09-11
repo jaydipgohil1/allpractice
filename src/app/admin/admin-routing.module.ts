@@ -14,7 +14,7 @@ const routes: Routes = [
   }
 
 ];
-console.log('admin'); 
+// console.log('admin'); 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]

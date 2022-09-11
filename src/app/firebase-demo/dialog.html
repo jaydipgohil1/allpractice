@@ -1,0 +1,26 @@
+<button #btnShow style="display: none;" id="btnShow" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" ></button>
+
+<div id="exampleModal" #myModal class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add New User</h5>
+        <button #btnClose id="btnClose" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <!-- <input type="text" [(ngModel)]="name" class="form-control" id="exampleFormControlInput1" placeholder="enter name"> -->
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Personal Info</label>
+          <!-- <textarea class="form-control" [(ngModel)]="personalInfo" placeholder="enter some personal info" id="exampleFormControlTextarea1" rows="3"></textarea> -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button"  class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" (click)="add()" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
